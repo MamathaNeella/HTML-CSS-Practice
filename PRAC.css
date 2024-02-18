@@ -1,0 +1,42 @@
+/* Universal selector */
+*{
+    margin-top: 0;
+    padding-left: 10px 10px;
+}
+
+
+/* Backgruoun_images and colors in CSS */
+body{
+    background-image: url("https://images3.alphacoders.com/133/1338701.png");
+    background-repeat: no-repeat;
+    background-size: 100% 650PX;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(153, 223, 223);
+}
+p{
+    background-color: rgb(223, 172, 154);
+    color: rgb(72, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: large;
+}
+
+.name{
+    background-color: azure;
+    font-style: oblique;
+    text-align: center;
+}
+
+.name1{
+    background-color: rgb(159, 244, 244);
+    font-style: normal;
+    text-align: center;
+}
+
+pre,small,big{
+    background-color: cadetblue;
+    font-size: large;
+    text-align: center;
+}
