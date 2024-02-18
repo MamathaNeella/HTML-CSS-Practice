@@ -9,8 +9,8 @@
 body{
     background-image: url("https://images3.alphacoders.com/133/1338701.png");
     background-repeat: no-repeat;
-    background-size: 100% 650PX;
-    background-position: center;
+    background-size: 100% 350PX;
+    background-position: top;
     background-attachment: fixed;
     background-color: rgb(153, 223, 223);
 }
@@ -22,7 +22,7 @@ p{
     font-style: italic;
     font-size: large;
 }
-
+/* Class selector in CSS */
 .name{
     background-color: azure;
     font-style: oblique;
@@ -34,9 +34,30 @@ p{
     font-style: normal;
     text-align: center;
 }
-
+/* Group Selector in CSS */
 pre,small,big{
     background-color: cadetblue;
     font-size: large;
     text-align: center;
+}
+/* Colors in CSS */
+.color1{
+    background-color: green;
+}
+
+.color2{
+    background-color: rgb(117, 47, 47);
+}
+
+.color3{
+    background-color: rgba(0, 87,159, 0.2);
+}
+.color4{
+    background-color: #ffffff;
+}
+.color5{
+    background-color: hsl(7, 91%, 18%);
+}
+.color6{
+    background-color: hsla(254, 73%, 30%, 0.5);
 }
