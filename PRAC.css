@@ -61,3 +61,33 @@ pre,small,big{
 .color6{
     background-color: hsla(254, 73%, 30%, 0.5);
 }
+
+/* Borders in CSS*/
+.color1{
+    border: solid;
+    border-radius: 10px;
+}
+
+.color2{
+    border: dashed;
+}
+
+.color3{
+    border: double;
+}
+.color4{
+    border: ridge;
+    border-color: rgb(14, 2, 24);
+}
+.color5{
+    border: groove;
+}
+.color6{
+    border: inset;
+}
+.color7{
+    border: outset;
+}
+.color8{
+    border-style: solid double dotted ridge;
+}
