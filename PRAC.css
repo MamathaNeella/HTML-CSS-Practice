@@ -91,3 +91,37 @@ pre,small,big{
 .color8{
     border-style: solid double dotted ridge;
 }
+
+.divvv{
+    columns: 180px;
+    row-gap: 80px;
+    
+}
+.child1{
+    background-color: rgb(209, 171, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.child2{
+    background-color: rgb(83, 237, 101);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.child3{
+    background-color: rgb(173, 98, 163);
+    font-family: sans-serif;
+}
+.child4{
+    background-color: rgb(176, 235, 66);
+    font-family: 'Times New Roman', Times, serif;
+}
+.child5{
+    background-color: rgb(143, 240, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.child6{
+    background-color: rgb(215, 140, 96);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.child7{
+    background-color: rgb(232, 95, 102);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
