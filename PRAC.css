@@ -94,6 +94,7 @@ pre,small,big{
 .divvv{
     columns: 180px;
     row-gap: 80px;
+    text-align: center;
     
 }
 .child1{
@@ -113,7 +114,7 @@ pre,small,big{
     font-family: 'Times New Roman', Times, serif;
 }
 .child5{
-    background-color: rgb(143, 240, 233);
+    background-color: rgb(26, 141, 133);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .child6{
@@ -143,4 +144,17 @@ pre,small,big{
     background-color: rgb(10, 122, 25);
     text-align: center;
     font-size: larger;
+}
+
+/* Flex box in CSS */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+    column-gap: 15px;
+    row-gap: 10px;
+    background-color: rgb(249, 186, 186);
+    justify-content: center;
+    
 }
