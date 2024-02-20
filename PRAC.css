@@ -158,3 +158,42 @@ pre,small,big{
     justify-content: center;
     
 }
+
+/* Grid in CSS */
+.grid{
+    display:inline-grid; 
+    grid-template-columns:  80px 80px 80px ;
+    grid-template-rows:  60px 60px 60px ;
+    background-color: rgb(198, 151, 241);
+    
+}
+.grid1{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    background-color: rgb(107, 17, 192);
+}
+.grid2{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    background-color: brown;
+}
+.grid3{
+    grid-row: 2/5;
+    grid-column: 3/6;
+    background-color: chocolate;
+}
+.grid4{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    background-color: rgb(3, 53, 53);
+}
+.grid5{
+    grid-row: 3/6;
+    grid-column: 1/3;
+    background-color: rgb(181, 219, 8);
+}
+.grid6{
+    grid-row: 5/6;
+    grid-column: 3/4;
+    background-color: rgb(5, 106, 34);
+}
