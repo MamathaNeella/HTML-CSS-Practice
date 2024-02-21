@@ -201,6 +201,7 @@ pre,small,big{
 .container{
  
   display: flex;
+  
   align-items: center;
   justify-content: center;
 }
@@ -211,10 +212,10 @@ nav{
   box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 nav ul li{
-    display: inline-block;
+    display: block;
     list-style: none;
     font-size: 2rem;
-    padding: 0 10px;
+    padding: 15px 10px;
     margin: 0 20px;
     cursor: pointer;
     position: relative;
@@ -223,12 +224,16 @@ nav ul li{
     content: '';
     width: 0;
     height: 3px;
-    background: #2192ff;
+    background: brown;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -5px;
     transition: 0.5s;
   }
   nav ul li:hover::after{
     width:100%;
+  }
+  li:hover{
+    background-color: brown;
+    border-radius: 10px;
   }
