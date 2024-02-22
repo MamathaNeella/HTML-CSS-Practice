@@ -237,6 +237,8 @@ nav ul li{
     background-color: brown;
     border-radius: 10px;
   }
+
+  /* Login form */
   form {
     display: flex;
     flex-direction: column;
@@ -301,3 +303,11 @@ nav ul li{
     font-weight: 600;
     transition: 0.2s ease;
   }
+
+  /* Z-index */
+   .img1 {
+    position: absolute;
+    left: 170px;
+    z-index: -1;
+  }
+  
