@@ -1,7 +1,9 @@
-// Java Script 
-let x=10;
-let y=20;
-document.write("x "+" + " +"y "+"= "+(x+y)+("<br>"));
+// Java Script
+
+// let x=10;
+// let y=20;
+// document.write("x "+" + " +"y "+"= "+(x+y)+("<br>"));
+
 // Operators in JS
 
 // Arthmetic Operators
@@ -15,4 +17,17 @@ document.write("a "+"% "+"b "+"= "+(a%b)+("<br>"));
 document.write("a "+"/ "+"b "+"= "+(a/b)+("<br>"));
 // Negate
 let d= 90
-document.write((-d)+("<br>"));
+document.write((-d)+("<br>"+"<br>"));
+
+
+// Assignment Operators
+
+let x=10;
+let y=13;
+document.write(x=y+("<br>"));
+document.write((x=x+y)+("<br>"));
+document.write(x-=y+("<br>"));
+document.write(x*=y+("<br>"));
+document.write(x%=y+("<br>"));
+document.write(x/=y+("<br>"));
+document.write(x**=y+("<br>"));
