@@ -22,7 +22,7 @@ document.write((-d)+("<br>"+"<br>"));
 
 // Assignment Operators
 
-let x=10;
+/*let x=10;
 let y=13;
 document.write(x=y+("<br>"));
 document.write((x=x+y)+("<br>"));
@@ -30,4 +30,16 @@ document.write(x-=y+("<br>"));
 document.write(x*=y+("<br>"));
 document.write(x%=y+("<br>"));
 document.write(x/=y+("<br>"));
-document.write(x**=y+("<br>"));
+document.write(x**=y+("<br>"+"<br>"));*/
+
+// Comparison Operators
+// output true or false
+
+let x=98;
+let y=54;
+document.write((x==y)+("<br>"));
+document.write((x!=y)+("<br>"));
+document.write((x>y)+("<br>"));
+document.write((x>=y)+("<br>"));
+document.write((x<y)+("<br>"));
+document.write((x<=y)+("<br>"+"<br>"));
