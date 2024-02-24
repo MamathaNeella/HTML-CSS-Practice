@@ -47,8 +47,20 @@ document.write((x<=y)+("<br>"+"<br>"));*/
 //Logical Operators
 // output true or false
 
-let x=54;
+/* let x=54;
 let y=12;
 document.write((x==y && y<x)+("<br>")); //both the conditions should be correct
 document.write((x==y || y<x)+("<br>")); //one condition should be correct
 document.write(!(x>y)+("<br>")); //when condition is not correct
+*/
+
+// Conditional Operators
+// if the condition is true 1st statement will excute
+// if the condition is false 2nd statement will excute
+
+/* let x=34;
+let y=90;
+(x>y)?document.write("x is greater than y"+("<br>")):document.write("x is smaller than y"+("<br>"));
+(x<y)?document.write("x is greater than y"+("<br>")):document.write("x is smaller than y"+("<br>"));
+*/
+
