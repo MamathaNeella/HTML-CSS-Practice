@@ -35,11 +35,20 @@ document.write(x**=y+("<br>"+"<br>"));*/
 // Comparison Operators
 // output true or false
 
-let x=98;
+/*let x=98;
 let y=54;
 document.write((x==y)+("<br>"));
 document.write((x!=y)+("<br>"));
 document.write((x>y)+("<br>"));
 document.write((x>=y)+("<br>"));
 document.write((x<y)+("<br>"));
-document.write((x<=y)+("<br>"+"<br>"));
+document.write((x<=y)+("<br>"+"<br>"));*/
+
+//Logical Operators
+// output true or false
+
+let x=54;
+let y=12;
+document.write((x==y && y<x)+("<br>")); //both the conditions should be correct
+document.write((x==y || y<x)+("<br>")); //one condition should be correct
+document.write(!(x>y)+("<br>")); //when condition is not correct
