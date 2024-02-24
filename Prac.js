@@ -77,3 +77,16 @@ document.write((x+y)+("<br>")); // in this case x is string and y is int but js 
 let y=90;
 document.write((x+y)+("<br>")); // in this case it returns output 105 because x and y are integers
 */
+
+//Explicit conversion which you do manually as per your needs
+
+let x="90";
+let y=12;
+document.write((x+y)+("<br>"));
+document.write(typeof(x)+("<br>"));
+document.write(typeof(y)+("<br>"));
+document.write((Number(x)+y)+("<br>"));
+let z=Number(x);
+document.write(typeof(z)+("<br>"));
+
+
