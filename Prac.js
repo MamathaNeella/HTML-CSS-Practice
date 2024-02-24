@@ -64,3 +64,16 @@ let y=90;
 (x<y)?document.write("x is greater than y"+("<br>")):document.write("x is smaller than y"+("<br>"));
 */
 
+// Type conversion in JS
+// Implicit and Explicit
+
+// Implicit, in certain situations js automatically convert one data type to the right one
+
+/* let x="15";
+let y=90;
+document.write((x+y)+("<br>")); // in this case x is string and y is int but js converted y to string returns output 1590 */
+
+/* let x=15;
+let y=90;
+document.write((x+y)+("<br>")); // in this case it returns output 105 because x and y are integers
+*/
