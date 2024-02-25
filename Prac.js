@@ -111,12 +111,22 @@ document.write((x+y)+("<br>")); // in this case it returns output 105 because x 
 
 // Parseint conversion
 
+// let x=90;
+// let y=12;
+// document.write((x+y)+("<br>"));
+// document.write(typeof(x)+("<br>"));
+// document.write(typeof(y)+("<br>"));
+// let z=parseInt(x);
+// document.write(typeof(z));
+
+// Parsefloat
+
 let x=90;
 let y=12;
 document.write((x+y)+("<br>"));
 document.write(typeof(x)+("<br>"));
 document.write(typeof(y)+("<br>"));
-let z=parseInt(x);
+let z=parseFloat(x);
 document.write(typeof(z));
 
 
