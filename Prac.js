@@ -80,13 +80,22 @@ document.write((x+y)+("<br>")); // in this case it returns output 105 because x 
 
 //Explicit conversion which you do manually as per your needs
 
-let x="90";
+// let x="90";
+// let y=12;
+// document.write((x+y)+("<br>"));
+// document.write(typeof(x)+("<br>"));
+// document.write(typeof(y)+("<br>"));
+// document.write((Number(x)+y)+("<br>"));
+// let z=Number(x);
+// document.write(typeof(z)+("<br>"));
+
+// String conversion
+
+let x=90;
 let y=12;
 document.write((x+y)+("<br>"));
 document.write(typeof(x)+("<br>"));
 document.write(typeof(y)+("<br>"));
-document.write((Number(x)+y)+("<br>"));
-let z=Number(x);
-document.write(typeof(z)+("<br>"));
-
+document.write((String(x)+y)+("<br>"));
+document.write((x+y)+("<br>"));
 
