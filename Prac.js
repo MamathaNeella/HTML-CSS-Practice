@@ -132,12 +132,29 @@ document.write(typeof(z)); */
 // Math.floor()
 
 
-let x=90.30;
+/* let x=90.30;
 let y=12;
 document.write((x+y)+("<br>"));
 document.write(typeof(x)+("<br>"));
 document.write(typeof(y)+("<br>"));
 let z=Math.floor(x);
-document.write(typeof(z));
+document.write(typeof(z)); */
+
+// Data types in JS - Primitive, Non-Primitive & Special data types
+
+// Primitive data types- Number, String, Boolean
+
+let x=("This is string data type");
+document.write(x +("<br>"));
+document.write(typeof(x) +("<br>"));
+
+let y=90;
+document.write(y +("<br>"));
+document.write(typeof(y) +("<br>"));
+
+let z=true;
+document.write(z +("<br>"));
+document.write(typeof(z) +("<br>"));
+
 
 
