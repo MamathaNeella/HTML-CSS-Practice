@@ -164,5 +164,12 @@ document.write(salaries +("<br>"));
 let user={name:"Mammu", Age:20, Place:"Hyderabad"}
 document.write(user.name +" " ,user.Age +" " ,user.Place +("<br>"));
 
+// Special data types - undefined and null
+
+let namee;
+document.write(namee+("<BR>"));
+
+let name3=null;
+document.write(name3);
 
 
