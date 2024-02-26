@@ -121,12 +121,23 @@ document.write((x+y)+("<br>")); // in this case it returns output 105 because x 
 
 // Parsefloat
 
-let x=90;
+/* let x=90;
 let y=12;
 document.write((x+y)+("<br>"));
 document.write(typeof(x)+("<br>"));
 document.write(typeof(y)+("<br>"));
 let z=parseFloat(x);
+document.write(typeof(z)); */
+
+// Math.floor()
+
+
+let x=90.30;
+let y=12;
+document.write((x+y)+("<br>"));
+document.write(typeof(x)+("<br>"));
+document.write(typeof(y)+("<br>"));
+let z=Math.floor(x);
 document.write(typeof(z));
 
 
