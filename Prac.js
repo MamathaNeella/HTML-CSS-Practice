@@ -156,5 +156,13 @@ let z=true;
 document.write(z +("<br>"));
 document.write(typeof(z) +("<br>"));
 
+// Non-Primitive data types - arrays and objects
+
+let salaries=[28000,31000,62000];
+document.write(salaries +("<br>"));
+
+let user={name:"Mammu", Age:20, Place:"Hyderabad"}
+document.write(user.name +" " ,user.Age +" " ,user.Place +("<br>"));
+
 
 
