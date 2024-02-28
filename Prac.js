@@ -203,3 +203,16 @@ else if(num2>98)
 else{
     document.write("both are wrong" + ("<br>"));
 }
+
+// switch
+
+let num3=23;
+switch (num3) {
+    case 12:document.write("this is 12" +("<br>"));
+    break;
+    case 76:document.write("this is 76" +("<br>"));
+    break;
+
+    default:document.write("this is wrong" +("<br>"))
+        break;
+}
