@@ -170,6 +170,23 @@ let namee;
 document.write(namee+("<BR>"));
 
 let name3=null;
-document.write(name3);
+document.write(name3+("<br>"));
 
+// control statements in JS
+// conditional/ decision making
 
+//if 
+let num=20;
+if(num>=12)
+{
+    document.write("num is greater than or equal to 12"+("<br>"))
+};
+
+// if-else
+let num1=78;
+if(num1<67){
+    document.write("num1 is less than 67" + ("<br>"));
+}
+else{
+    document.write("num1 is greater than 67" + ("<br>"));
+}
