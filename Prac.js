@@ -190,3 +190,16 @@ if(num1<67){
 else{
     document.write("num1 is greater than 67" + ("<br>"));
 }
+
+// if-else-if ladder
+let num2=90;
+if(num2<87){
+    document.write("num2 is less than 90" + ("<br>"));
+}
+else if(num2>98)
+{
+    document.write("num1 is greater than 67" + ("<br>"));
+}
+else{
+    document.write("both are wrong" + ("<br>"));
+}
