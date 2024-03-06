@@ -260,3 +260,11 @@ switch (xy) {
     default:console.log("none are correct " );
     
 }
+
+
+for(xyz=12;xyz<23;xyz++){
+if(xyz==15) continue;
+
+    console.log("this is for loop "+ xyz );
+    
+}
