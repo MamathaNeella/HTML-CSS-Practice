@@ -214,5 +214,18 @@ switch (num3) {
     break;
 
     default:document.write("this is wrong" +("<br>"))
-        break;
+    break;
+}
+
+// Looping/Iteration in JS
+// for loop
+for(a=12;a<=19;a++);{
+console.log("this is for loop "+ a);
+}
+
+// While loop
+let num4=1;
+while(num4<87){
+    console.log("this is while loop "+ num4)
+    num4++;
 }
