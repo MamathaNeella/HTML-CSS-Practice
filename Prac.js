@@ -236,3 +236,27 @@ do{
     console.log("this is do-while loop" + num5);
     num5++;
 }while (num5<25);
+
+// Jump statements un JS
+// break statement breaks the loop
+let num6=1;
+switch (num6) {
+    case 2:console.log("1st case is correct " + num6);
+        break;
+    case 1:console.log("2nd case is correct " + num6);
+        break;
+    case 3:console.log("3rd case is correct " + num6);
+        break;
+    default:console.log("none are correct");
+        
+}
+
+//without break statement
+let xy=90;
+switch (xy) {
+    case 98:console.log("1st case is correct " + xy);
+    case 90:console.log("2nd case is correct " + xy);
+    case 68:console.log("3rd case is correct " + xy);
+    default:console.log("none are correct " );
+    
+}
