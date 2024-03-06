@@ -229,3 +229,10 @@ while(num4<87){
     console.log("this is while loop "+ num4)
     num4++;
 }
+
+//do-while loop
+let num5=12;
+do{
+    console.log("this is do-while loop" + num5);
+    num5++;
+}while (num5<25);
