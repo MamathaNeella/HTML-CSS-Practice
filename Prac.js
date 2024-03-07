@@ -290,3 +290,14 @@ let z=(x,y)=>{
     return(x + y);
 }
 z(12,34);
+
+// Immediatly Invoked Function Expression
+let func=(function imd(a,b){
+    console.log(a-b);
+    return(a-b);
+
+} 
+
+    
+    )
+    func(12,11)
