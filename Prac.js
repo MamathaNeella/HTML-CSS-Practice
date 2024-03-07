@@ -283,3 +283,10 @@ let xy=function(y){
     return y;
 }
 (8);
+
+// arrow function
+let z=(x,y)=>{
+    console.log(x+y);
+    return(x + y);
+}
+z(12,34);
