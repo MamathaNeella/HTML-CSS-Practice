@@ -144,127 +144,136 @@ document.write(typeof(z)); */
 
 // Primitive data types- Number, String, Boolean
 
-let x=("This is string data type");
-document.write(x +("<br>"));
-document.write(typeof(x) +("<br>"));
+// let x=("This is string data type");
+// document.write(x +("<br>"));
+// document.write(typeof(x) +("<br>"));
 
-let y=90;
-document.write(y +("<br>"));
-document.write(typeof(y) +("<br>"));
+// let y=90;
+// document.write(y +("<br>"));
+// document.write(typeof(y) +("<br>"));
 
-let z=true;
-document.write(z +("<br>"));
-document.write(typeof(z) +("<br>"));
+// let z=true;
+// document.write(z +("<br>"));
+// document.write(typeof(z) +("<br>"));
 
-// Non-Primitive data types - arrays and objects
+// // Non-Primitive data types - arrays and objects
 
-let salaries=[28000,31000,62000];
-document.write(salaries +("<br>"));
+// let salaries=[28000,31000,62000];
+// document.write(salaries +("<br>"));
 
-let user={name:"Mammu", Age:20, Place:"Hyderabad"}
-document.write(user.name +" " ,user.Age +" " ,user.Place +("<br>"));
+// let user={name:"Mammu", Age:20, Place:"Hyderabad"}
+// document.write(user.name +" " ,user.Age +" " ,user.Place +("<br>"));
 
-// Special data types - undefined and null
+// // Special data types - undefined and null
 
-let namee;
-document.write(namee+("<BR>"));
+// let namee;
+// document.write(namee+("<BR>"));
 
-let name3=null;
-document.write(name3+("<br>"));
+// let name3=null;
+// document.write(name3+("<br>"));
 
-// control statements in JS
-// conditional/ decision making
+// // control statements in JS
+// // conditional/ decision making
 
-//if 
-let num=20;
-if(num>=12)
-{
-    document.write("num is greater than or equal to 12"+("<br>"))
-};
+// //if 
+// let num=20;
+// if(num>=12)
+// {
+//     document.write("num is greater than or equal to 12"+("<br>"))
+// };
 
-// if-else
-let num1=78;
-if(num1<67){
-    document.write("num1 is less than 67" + ("<br>"));
-}
-else{
-    document.write("num1 is greater than 67" + ("<br>"));
-}
+// // if-else
+// let num1=78;
+// if(num1<67){
+//     document.write("num1 is less than 67" + ("<br>"));
+// }
+// else{
+//     document.write("num1 is greater than 67" + ("<br>"));
+// }
 
-// if-else-if ladder
-let num2=90;
-if(num2<87){
-    document.write("num2 is less than 90" + ("<br>"));
-}
-else if(num2>98)
-{
-    document.write("num1 is greater than 67" + ("<br>"));
-}
-else{
-    document.write("both are wrong" + ("<br>"));
-}
+// // if-else-if ladder
+// let num2=90;
+// if(num2<87){
+//     document.write("num2 is less than 90" + ("<br>"));
+// }
+// else if(num2>98)
+// {
+//     document.write("num1 is greater than 67" + ("<br>"));
+// }
+// else{
+//     document.write("both are wrong" + ("<br>"));
+// }
 
-// switch
+// // switch
 
-let num3=23;
-switch (num3) {
-    case 12:document.write("this is 12" +("<br>"));
-    break;
-    case 76:document.write("this is 76" +("<br>"));
-    break;
+// let num3=23;
+// switch (num3) {
+//     case 12:document.write("this is 12" +("<br>"));
+//     break;
+//     case 76:document.write("this is 76" +("<br>"));
+//     break;
 
-    default:document.write("this is wrong" +("<br>"))
-    break;
-}
+//     default:document.write("this is wrong" +("<br>"))
+//     break;
+// }
 
-// Looping/Iteration in JS
-// for loop
-for(a=12;a<=19;a++);{
-console.log("this is for loop "+ a);
-}
+// // Looping/Iteration in JS
+// // for loop
+// for(a=12;a<=19;a++);{
+// console.log("this is for loop "+ a);
+// }
 
-// While loop
-let num4=1;
-while(num4<87){
-    console.log("this is while loop "+ num4)
-    num4++;
-}
+// // While loop
+// let num4=1;
+// while(num4<87){
+//     console.log("this is while loop "+ num4)
+//     num4++;
+// }
 
-//do-while loop
-let num5=12;
-do{
-    console.log("this is do-while loop" + num5);
-    num5++;
-}while (num5<25);
+// //do-while loop
+// let num5=12;
+// do{
+//     console.log("this is do-while loop" + num5);
+//     num5++;
+// }while (num5<25);
 
-// Jump statements un JS
-// break statement breaks the loop
-let num6=1;
-switch (num6) {
-    case 2:console.log("1st case is correct " + num6);
-        break;
-    case 1:console.log("2nd case is correct " + num6);
-        break;
-    case 3:console.log("3rd case is correct " + num6);
-        break;
-    default:console.log("none are correct");
+// // Jump statements un JS
+// // break statement breaks the loop
+// let num6=1;
+// switch (num6) {
+//     case 2:console.log("1st case is correct " + num6);
+//         break;
+//     case 1:console.log("2nd case is correct " + num6);
+//         break;
+//     case 3:console.log("3rd case is correct " + num6);
+//         break;
+//     default:console.log("none are correct");
         
-}
+// }
 
-//without break statement
-let xy=90;
-switch (xy) {
-    case 98:console.log("1st case is correct " + xy);
-    case 90:console.log("2nd case is correct " + xy);
-    case 68:console.log("3rd case is correct " + xy);
-    default:console.log("none are correct " );
+// //without break statement
+// let xy=90;
+// switch (xy) {
+//     case 98:console.log("1st case is correct " + xy);
+//     case 90:console.log("2nd case is correct " + xy);
+//     case 68:console.log("3rd case is correct " + xy);
+//     default:console.log("none are correct " );
     
-}
+// }
 
 
-for(xyz=12;xyz<23;xyz++){
-if(xyz==15) continue;
+// for(xyz=12;xyz<23;xyz++){
+// if(xyz==15) continue;
 
-    console.log("this is for loop "+ xyz );
+//     console.log("this is for loop "+ xyz );
     
-}
+// }
+
+
+// Functions in Js
+// named function
+function add(x){
+    console.log(x + 20);
+    return x;
+}add(78);
+
