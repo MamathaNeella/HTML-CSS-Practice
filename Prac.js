@@ -277,3 +277,9 @@ function add(x){
     return x;
 }add(78);
 
+//anonymous function
+let xy=function(y){
+    console.log(y + 20);
+    return y;
+}
+(8);
