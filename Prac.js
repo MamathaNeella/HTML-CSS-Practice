@@ -297,7 +297,13 @@ let func=(function imd(a,b){
     return(a-b);
 
 } 
+)
+    func(12,11);
 
-    
-    )
-    func(12,11)
+
+// Events in Js
+// Function call events
+function change(){
+    document.body.style.backgroundColor="green"
+}
+
