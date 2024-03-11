@@ -322,9 +322,18 @@ function change3(){
 }
 
 // Set setTimeout in JS
-let set1=setTimeout (
+// let set1=setTimeout (
+//     function(){
+//         alert("check once")
+//     },3000
+// )
+// document.write("This is settimeout in JS"+("<br>"))
+
+// Set Interval
+let set2=setTimeout (
     function(){
-        alert("check once")
+        alert("checked")
     },3000
 )
-document.write("This is settimeout in JS")
+clearInterval(set2)
+document.write("This is settimeout in JS" +("<br>"))
