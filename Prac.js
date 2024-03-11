@@ -307,3 +307,10 @@ function change(){
     document.body.style.backgroundColor="green"
 }
 
+// Event properties in Js
+
+let evnt=document.getElementById("btn20")
+evnt.onclick=change2;
+function change2(){
+    document.body.style.backgroundColor="maroon"
+}
