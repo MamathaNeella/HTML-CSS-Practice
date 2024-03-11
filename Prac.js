@@ -320,3 +320,11 @@ evnt1.addEventListener("click",change3);
 function change3(){
     document.body.style.backgroundColor="grey"
 }
+
+// Set setTimeout in JS
+let set1=setTimeout (
+    function(){
+        alert("check once")
+    },3000
+)
+document.write("This is settimeout in JS")
