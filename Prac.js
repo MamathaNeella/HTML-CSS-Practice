@@ -314,3 +314,9 @@ evnt.onclick=change2;
 function change2(){
     document.body.style.backgroundColor="maroon"
 }
+
+let evnt1=document.getElementById("btn29")
+evnt1.addEventListener("click",change3);
+function change3(){
+    document.body.style.backgroundColor="grey"
+}
