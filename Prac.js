@@ -360,8 +360,20 @@ let y=x.map(function(elem,index,arr){
 document.write(y); */
 
 // filter()
-let x=[23,89,56,21,45];
+/* let x=[23,89,56,21,45];
 let y=x.filter(function(elem,index,arr){
    return elem%2==0;
 })
-document.write(y);
+document.write(y); */
+
+// reduce()
+let x=[23,89,56,21,45];
+let y=x.reduce(function(acc,elem,index,arr){
+   if(acc>elem){
+    return acc
+   }
+   else{
+    return elem
+   }
+},x[1]);
+document.write(max);
