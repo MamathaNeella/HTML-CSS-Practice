@@ -379,8 +379,15 @@ let y=x.reduce(function(acc,elem,index,arr){
 document.write(max); */
 
 // find()
-let x=["ammu","potti","raju"];
+/* let x=["ammu","potti","raju"];
 let y=x.find(function(ele){
     return ele.startsWith("a");
 })
-document.write(y); 
+document.write(y); */
+
+// any()
+let x=["ammu","potti","raju"];
+let y=x.some(function(ele){
+    return ele.startsWith("a");
+})
+document.write(y);
