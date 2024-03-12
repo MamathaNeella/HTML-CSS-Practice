@@ -352,9 +352,16 @@ function change3(){
 
 //Array methods
 // Map()
-let x=[23,89,56,21,45];
+/* let x=[23,89,56,21,45];
 let y=x.map(function(elem,index,arr){
     let cur =  elem-10;
     return cur;
+})
+document.write(y); */
+
+// filter()
+let x=[23,89,56,21,45];
+let y=x.filter(function(elem,index,arr){
+   return elem%2==0;
 })
 document.write(y);
