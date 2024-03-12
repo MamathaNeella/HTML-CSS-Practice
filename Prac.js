@@ -386,8 +386,16 @@ let y=x.find(function(ele){
 document.write(y); */
 
 // any()
-let x=["ammu","potti","raju"];
+/* let x=["ammu","potti","raju"];
 let y=x.some(function(ele){
     return ele.startsWith("a");
 })
+document.write(y); */
+
+// every()
+let x=["ammu","potti","raju"];
+let y=x.every(function(ele){
+    return ele.startsWith("a");
+})
 document.write(y);
+
