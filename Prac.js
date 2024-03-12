@@ -367,7 +367,7 @@ let y=x.filter(function(elem,index,arr){
 document.write(y); */
 
 // reduce()
-let x=[23,89,56,21,45];
+/* let x=[23,89,56,21,45];
 let y=x.reduce(function(acc,elem,index,arr){
    if(acc>elem){
     return acc
@@ -376,4 +376,11 @@ let y=x.reduce(function(acc,elem,index,arr){
     return elem
    }
 },x[1]);
-document.write(max);
+document.write(max); */
+
+// find()
+let x=["ammu","potti","raju"];
+let y=x.find(function(ele){
+    return ele.startsWith("a");
+})
+document.write(y); 
