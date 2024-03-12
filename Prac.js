@@ -330,10 +330,31 @@ function change3(){
 // document.write("This is settimeout in JS"+("<br>"))
 
 // Set Interval
-let set2=setTimeout (
-    function(){
-        alert("checked")
-    },3000
-)
-clearInterval(set2)
-document.write("This is settimeout in JS" +("<br>"))
+// let set2=setTimeout (
+//     function(){
+//         alert("checked")
+//     },3000
+// )
+// clearInterval(set2)
+// document.write("This is settimeout in JS" +("<br>"))
+
+//  setInterval
+// let counter=1;
+// let count2=setInterval(test,3000,"checked123")
+// document.write(count2);
+// function test() {
+//      alert("called: " + counter) 
+//      counter++;  
+//      if(counter>5){
+//         clearInterval(count2)
+//      }
+// }
+
+//Array methods
+// Map()
+let x=[23,89,56,21,45];
+let y=x.map(function(elem,index,arr){
+    let cur =  elem-10;
+    return cur;
+})
+document.write(y);
