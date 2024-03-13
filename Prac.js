@@ -413,7 +413,7 @@ document.write(y+("<br>")); */
 
 //call back functions
 
-function test(a) {
+/* function test(a) {
     return a();
     
 }
@@ -422,7 +422,24 @@ function test1(a) {
     
 }
 let x=test(test1());
-document.write(x+("<br>"));
+document.write(x+("<br>")); */
 
+//Higher order functions
 
-
+function test(num,num1) {
+ return num + num1;
+ 
+    
+}
+function test1(num,num1) {
+    return num * num1;
+    
+}
+ function con(val1,val2,prod) {
+   return prod(val1,val2);
+    
+ }
+let x =con(3,5,test)
+document.write(x + ("<br>"));
+let y =con(3,5,test1)
+document.write(y + ("<br>"));
