@@ -426,7 +426,7 @@ document.write(x+("<br>")); */
 
 //Higher order functions
 
-function test(num,num1) {
+/* function test(num,num1) {
  return num + num1;
  
     
@@ -442,4 +442,18 @@ function test1(num,num1) {
 let x =con(3,5,test)
 document.write(x + ("<br>"));
 let y =con(3,5,test1)
-document.write(y + ("<br>"));
+document.write(y + ("<br>")); */
+
+//return function
+
+function test(a) {
+    return test1();
+    
+}
+function test1(a) {
+    document.write("this is return function in another function "+("<br>"));
+    return a()
+}
+
+let x=test(test1);
+document.write(x+("<br>"));
