@@ -401,9 +401,28 @@ document.write(y); */
 
 // spread operator
 
-let x=[23,56,78];
+/* let x=[23,56,78];
 document.write(x +("<br>"));
 let y=[12,89,...x,90];
-document.write(y +("<br>"));
+document.write(y +("<br>")); */
+
+/* let x="JavaScript";
+document.write(x +("<br>"));
+let y=[...x];
+document.write(y+("<br>")); */
+
+//call back functions
+
+function test(a) {
+    return a();
+    
+}
+function test1(a) {
+    document.write("this is 2nd function ");
+    
+}
+let x=test(test1());
+document.write(x+("<br>"));
+
 
 
