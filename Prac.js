@@ -393,9 +393,17 @@ let y=x.some(function(ele){
 document.write(y); */
 
 // every()
-let x=["ammu","potti","raju"];
+/* let x=["ammu","potti","raju"];
 let y=x.every(function(ele){
     return ele.startsWith("a");
 })
-document.write(y);
+document.write(y); */
+
+// spread operator
+
+let x=[23,56,78];
+document.write(x +("<br>"));
+let y=[12,89,...x,90];
+document.write(y +("<br>"));
+
 
